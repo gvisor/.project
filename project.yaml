@@ -1,0 +1,74 @@
+# .project metadata for gVisor
+#
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+schema_version: "1.0.0"
+slug: "gVisor"
+name: "gVisor"
+description: "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely."
+type: "project"
+slack_channels:
+  - name: "#gvisor"
+    workspace: "cncf"
+    link: "https://cloud-native.slack.com/messages/gvisor"
+    primary: true
+  - name: "#gvisor-dev"
+    workspace: "cncf"
+    link: "https://cloud-native.slack.com/messages/gvisor-dev"
+
+maturity_log:
+  - phase: "sandbox"
+    date: 2016-09-28T00:00:00Z
+    issue: "https://github.com/cncf/sandbox/issues/521"
+
+repositories:
+  - "https://github.com/gvisor/gvisor"
+
+website: "https://gvisor.dev"
+artwork: "https://github.com/cncf/artwork/tree/master/projects/gvisor"
+
+adopters:
+  path: "https://github.com/gvisor/gvisor/blob/master/ADOPTERS.md"
+
+mailing_lists:
+  - "gvisor-users@googlegroups.com"
+  - "gvisor-dev@googlegroups.com"
+
+security:
+  policy:
+    path: "https://github.com/gvisor/gvisor/blob/master/SECURITY.md"
+  threat_model:
+    path: "https://gvisor.dev/docs/architecture_guide/security/"
+  contact:
+    advisory_url: "https://github.com/gvisor/gvisor/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/gvisor/gvisor/blob/master/CONTRIBUTING.md"
+  governance_doc:
+    path: "https://github.com/gvisor/gvisor/blob/master/GOVERNANCE.md"
+  code_of_conduct:
+    path: "https://github.com/gvisor/gvisor/blob/master/CODE_OF_CONDUCT.md"
+  comms_channels:
+    path: "https://gvisor.dev/community/"
+  community_calendar:
+    path: "https://gvisor.dev/community/"
+
+legal:
+  license:
+    path: "https://github.com/gvisor/gvisor/blob/master/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/gvisor/gvisor/blob/master/README.md"
+  architecture:
+    path: "https://github.com/gvisor/gvisor/blob/master/g3doc/architecture_guide/intro_to_gvisor.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Container Runtime"
