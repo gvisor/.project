@@ -3,7 +3,7 @@
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
 schema_version: "1.0.0"
-slug: "gVisor"
+slug: "gvisor"
 name: "gVisor"
 description: "gVisor is a sandboxing layer for running containers and agentic workloads efficiently and securely."
 type: "project"
