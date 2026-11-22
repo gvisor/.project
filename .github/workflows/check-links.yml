@@ -35,7 +35,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: cncf/automation/.github/actions/check-links@85e0bcd298817a6e26e286d6b22615f8c81b4e4b
+      - uses: cncf/automation/.github/actions/check-links@cfa0a014563a06c1091bc5f5426422565a03309d
         if: steps.biweekly.outputs.skip != 'true'
         with:
           # Opens one issue with this label when links are broken, keeps it
