@@ -33,11 +33,13 @@ maintainers:
       # (mailing lists, service desk, Copilot seats, handle verification).
       #
       # Active contributors who do not need full CNCF resource access:
-      # - name: "reviewers"
-      #   managed: false
-      #   members:
-      #     - reviewer-handle
-      #
+      - name: "reviewers"
+        managed: false
+        members:
+          - hugelgupf
+          - tamird
+          - shayonj
+
       # Former maintainers:
       - name: "emeritus"
         managed: false
